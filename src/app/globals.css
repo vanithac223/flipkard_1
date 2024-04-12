@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.df{
+   display: flex; 
+}
+.jcsb{
+    gap: 2rem;
+}
+.pd{
+    padding-top:11px;
+}
+input.pd{
+    padding-left: 20px;
+}
+.md{
+    background-color: azure;
+    /* position: relative;
+    left: -40px; */
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  .fx{
+    position: fixed;
+    width: 100%;
+    background-color:#fff;
+    height: 4rem;
+  }
+  .mt-h{
+padding-top: 80px; 
+ }
+ .jc{
+    justify-content: space-between;
+ }
+ .mg{
+  font-size: 19px;
+  font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+  font-weight: 500;
+ }
+ .mrg-top{
+  margin-top: 20px;
+ }
+ .mx-w{
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .colour{
+  color:#fff;
+ }
+ .cl{
+  color: dimgrey;
+ }
+ .horizontal{
+  border-top: 1px solid white;
+ }
+ .margin-left{
+  margin-left: 200px;
+ }
+ .margine{
+  border-left: 1px solid white;
+ }
