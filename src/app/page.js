@@ -5,10 +5,10 @@ import Bottom from "./bottom/bottom";
 export default function Home() {
   return (
   <>
-    {/* <Product1/>
+    <Product1/>
     <Product_2/>
     <Product_3/>
-    <Bottom/> */}
+    <Bottom/>
   </>
   );
 }
